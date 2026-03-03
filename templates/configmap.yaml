@@ -5,6 +5,6 @@ metadata:
 data:
   {{- range $key, $value := .Values.configmap_data }}
   {{ $key }}: {{ $value | quote }}
-  {{- env }}
+  {{- end }}
 
 
