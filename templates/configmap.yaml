@@ -2,8 +2,9 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: {{ .Values.component_name }}
-{{- with .Values.configmap_data }}
 data:
-  {{- toYaml . | nindent 2 }}
-{{- end }}
+  {{- range $key, $value := .Values.configmap_data }}
+  {{ $key }}: {{ $value | quote }}
+  {{- env }}
+
 
