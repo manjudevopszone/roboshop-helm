@@ -6,3 +6,14 @@ configmap_data:
 
 schema:
   enabled: true
+
+schema_values:
+  env:
+    - name: DB_TYPE
+      value: mongo
+    - name: APP_GIT_URL
+      value: https://github.com/roboshop-devops-project-v3/catalogue
+    - name: DB_HOST
+      value: mongodb-dev.devopsbymanju.shop
+    - name: SCHEMA_FILE
+      value: db/master-data.js
