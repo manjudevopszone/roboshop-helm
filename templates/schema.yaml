@@ -7,12 +7,12 @@ spec:
   template:
     spec:
       containers:
-        - name: schema-load
-          image: public.ecr.aws/w8x4g9h7/roboshop-v3/schema-load
-          {{- with .Values.schema_values.env }}
-          env:
-            {{- toYaml . | nindent 12 }}
-          {{- end }}
+      - name: schema-load
+        image: public.ecr.aws/w8x4g9h7/roboshop-v3/schema-load
+        {{- with .Values.schema_values.env }}
+        env:
+          {{- toYaml . | nindent 12 }}
+        {{- end }}
       restartPolicy: Never
   backoffLimit: 4
 {{ end }}
