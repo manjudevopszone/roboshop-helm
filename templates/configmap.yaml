@@ -4,7 +4,7 @@ metadata:
   name: {{ .Values.component_name }}
 data:
   {{- range $key, $value := .Values.configmap_data }}
-            {{ $key }}: {{ $value | quote | nindent 2}}
+            {{ $key }}: {{ $value |  nindent 2 | quote }}
   {{- end }}
 
 
