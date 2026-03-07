@@ -21,5 +21,3 @@ spec:
 {{ end }}
 {{ end }}
 
-- name: SCHEMA_FILE
-  value: db/master-data.js
