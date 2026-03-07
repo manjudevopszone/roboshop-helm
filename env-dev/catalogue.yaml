@@ -11,6 +11,7 @@ configmap_data:
 schema:
   enabled: true
 
+
 schema_values:
   env:
     - name: DB_TYPE
