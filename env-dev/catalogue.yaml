@@ -12,7 +12,6 @@ schema:
   enabled: true
   jobs:
     - master-data
+  extension: js
 
 
-schema_values:
-  extension: .js
