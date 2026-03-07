@@ -3,7 +3,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: {{ $.Values.component_name }}-{{ . }
+  name: {{ $.Values.component_name }}-{{ . }}
 spec:
   template:
     spec:
