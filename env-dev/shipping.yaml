@@ -4,6 +4,7 @@ schema:
   enabled: true
   jobs:
     - schema
+    - app-user
 
 configmap_data:
   CART_ENDPOINT: "cart-dev.devopsbymanju.shop"
