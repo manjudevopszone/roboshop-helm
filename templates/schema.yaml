@@ -1,5 +1,5 @@
 {{- range .Values.schema.jobs }}
-{{ if .Values.schema.enabled }}
+{{ if $.Values.schema.enabled }}
 apiVersion: batch/v1
 kind: Job
 metadata:
