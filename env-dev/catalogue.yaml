@@ -5,7 +5,7 @@ configmap_data:
   MONGO_URL: "mongodb://mongodb-dev.devopsmanju.shop:27017/catalogue"
   DB_TYPE: mongo
   APP_GIT_URL: https://github.com/roboshop-devops-project-v3/catalogue
-  DB_HOST: mongodb-dev.devopsbymanju.shop
+  DB_HOST: mongodb-dev.devopsmanju.shop
 
 
 schema:

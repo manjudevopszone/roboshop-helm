@@ -2,5 +2,5 @@ component_name: user
 
 configmap_data:
   MONGO: "true"
-  MONGO_URL: "mongodb://mongodb-dev.devopsbymanju.shop:27017/users"
-  REDIS_URL: "redis://redis-dev.devopsbymanju.shop:6379"
+  MONGO_URL: "mongodb://mongodb-dev.devopsmanju.shop:27017/users"
+  REDIS_URL: "redis://redis-dev.devopsmanju.shop:6379"
